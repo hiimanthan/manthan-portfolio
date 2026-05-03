@@ -5,18 +5,18 @@ export default function Home() {
       {/* Navbar */}
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-500/10 blur-3xl rounded-full animate-pulse -translate-y-10"></div>
 <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-cyan-400/10 blur-3xl rounded-full animate-pulse translate-y-10"></div>
-      <nav className="w-full flex justify-between items-center px-10 py-5 fixed top-0 left-0 z-50 border-b border-white/10 bg-black/30 backdrop-blur-2xl shadow-lg shadow-black/20">
-        <h1 className="text-2xl font-semibold bg-gradient-to-r from-white to-blue-400 bg-clip-text text-transparent">
+      <nav className="w-full flex justify-between items-center px-6 md:px-12 py-4 fixed top-0 left-0 z-50 border-b border-white/10 bg-black/40 backdrop-blur-2xl shadow-xl shadow-black/30 rounded-b-2xl">
+        <h1 className="text-xl md:text-2xl font-semibold tracking-[4px] bg-gradient-to-r from-white via-cyan-200 to-blue-400 bg-clip-text text-transparent">
           MANTHAN
         </h1>
 
-        <div className="hidden md:flex gap-10 text-gray-300 text-sm uppercase tracking-[3px] font-medium">
+        <div className="hidden md:flex gap-12 text-gray-300 text-xs uppercase tracking-[4px] font-medium">
           <a href="#" className="hover:text-blue-400 transition-all">Home</a>
           <a href="#" className="hover:text-blue-400 transition-all">Projects</a>
           <a href="#" className="hover:text-blue-400 transition-all">Contact</a>
         </div>
-
-        <button className="bg-white text-black px-7 py-2.5 rounded-full text-sm font-semibold uppercase tracking-[2px] hover:scale-105 transition-all duration-300 shadow-2xl">
+<button className="bg-white text-black px-8 py-3 rounded-full text-xs font-semibold uppercase tracking-[3px] hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-white/20">
+        
           Hire Me
         </button>
       </nav>
@@ -55,6 +55,21 @@ export default function Home() {
         </div>
 
       </section>
+      <section className="px-8 md:px-20 py-24 border-t border-white/10">
+  <p className="text-blue-400 uppercase tracking-[6px] text-sm mb-6">
+    ABOUT
+  </p>
+
+  <h2 className="text-4xl md:text-6xl font-semibold mb-8">
+    Data Analyst Focused On Results
+  </h2>
+
+  <p className="text-gray-400 text-lg leading-8 max-w-3xl">
+    I help businesses transform raw data into clear decisions through dashboards,
+    analytics and statistical thinking. My work focuses on performance insights,
+    growth opportunities and smart reporting systems.
+  </p>
+</section>
       <section className="px-8 md:px-20 py-24 border-t border-white/10">
   <p className="text-blue-400 uppercase tracking-[6px] text-sm mb-6">
     FEATURED PROJECTS
